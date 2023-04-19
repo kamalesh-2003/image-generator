@@ -7,7 +7,7 @@ from io import BytesIO
 import tkinter as tk
 
 # Set the OpenAI API key
-openai.api_key = "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"
+openai.api_key = "open_ai_key"
 
 def generate_image():
     # Get the user input from the textbox
@@ -23,7 +23,7 @@ def generate_image():
 
     # Set the DALL-E API parameters
     url = "https://api.openai.com/v1/images/generations"
-    api_key = "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"
+    api_key = "open_ai_key"
     model = "image-alpha-001"
     prompt1 = prompt
 
